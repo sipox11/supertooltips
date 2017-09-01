@@ -57,7 +57,7 @@ protected void onCreate(Bundle savedInstanceState) {
 	                    .withText("A beautiful View")
 	                    .withColor(Color.RED)
 	                    .withShadow()
-						.withAnimationType(ToolTip.ANIMATIONTYPE_FROMTOP);
+						.withAnimationType(ToolTip.AnimationType.FROM_TOP);
 	myToolTipView = toolTipRelativeLayout.showToolTipForView(toolTip, findViewById(R.id.activity_main_redtv));
 	myToolTipView.setOnToolTipViewClickedListener(MainActivity.this);
 }
